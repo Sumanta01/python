@@ -6,7 +6,7 @@ Created on Fri Jul 15 03:38:12 2022
 """
 import hashlib 
 
-str="padma"
+str="Sumanta Swain"
 hashedval=hashlib.sha256(str.encode())
 print(hashedval)
 print(hashedval.hexdigest())
